@@ -105,7 +105,6 @@ header{
     display: flex;
     min-width: 200px;
     justify-content: space-evenly;
-    margin-left: 0%;
 }
 
 .action_continer{
@@ -113,10 +112,19 @@ header{
     flex-direction:column;
     align-items: center;
 }
+.action_icon{
+    height: 22px;
+}
 
-.action_name{
-    font-weight: bold;
-    font-size:small;
+.action_bar a{
+    font-size: .7em;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight:700;
+    text-decoration: none;
+    padding: 27px 0 ;
+    border-bottom: 3px solid rgb(251, 251, 251) ;
+    align-items: center;
 }
 
 .banner_image{
